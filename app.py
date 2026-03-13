@@ -6,6 +6,7 @@ from llm import gerar_resposta_llm
 
 load_dotenv()
 
+
 # Inicializa histórico de mensagens
 if "messages" not in st.session_state:
     st.session_state.messages = []  # cada item: {"role": "user"/"assistant", "content": "..."}
