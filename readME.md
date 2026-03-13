@@ -31,12 +31,6 @@ Aplicação Streamlit para corretores consultarem uma apólice em PDF: faz uploa
 ## Instalação (Windows / PowerShell)
 Crie e ative um ambiente virtual:
 
-```powershell
-cd c:\Users\Producao1\Documents\trae_projects\corretorBot
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
-
 Instale as dependências:
 
 ```powershell
